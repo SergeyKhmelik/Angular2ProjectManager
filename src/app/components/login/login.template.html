@@ -1,0 +1,15 @@
+<form [formGroup]="form">
+    <div><img [src]="logoImagePath"></div>
+
+    <div>
+        <input id="login-email" type="email" formControlName="email" placeholder="Эл. почта"/>
+    </div>
+
+    <div>
+        <input id="login-password" type="password" formControlName="password" placeholder="Пароль"/>
+    </div>
+
+    <div>
+        <button type="submit">Вход</button>
+    </div>
+</form>
